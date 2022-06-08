@@ -1,0 +1,56 @@
+*{
+    color: white;
+    line-height: 1.4em;
+}
+.container-topbar .topbar {
+    width: 1170px;
+    margin: 0 auto;
+    color: white;
+    
+  
+}
+.topbar{
+    padding:10px 100px 10px 0px;
+    white-space:inherit;
+    position: relative;
+    margin: auto;
+    
+}
+a{
+    padding: 8px 15px 8px 15px;
+}
+.container-topbar {
+    background: #333;
+    overflow: hidden;
+    margin: 0 auto;
+    height: 50px;
+    font-size: 18px;
+    position: flex;
+    
+}
+.container-topbar.topbar{
+    color: wheat;
+}
+/* css phan duoi header */
+.header-toolbar{
+    width: auto;
+    height: auto;
+}
+.foody-wapper{
+    
+    padding: 8px 15px 8px 15px;
+    background-color: gray;
+    text-align: center;
+    position: static;
+  
+}
+
+.foody-wapper.rn-nav-name{
+    line-height: 31px;
+    display: inline-block;
+}
+  
+/* .foody-wapper.logo-foody-logo img{
+    width: 500px;
+} */
+
