@@ -1,6 +1,6 @@
 *{
     color: white;
-    line-height: 1.4em;
+    /* line-height: 1.4em; */
 }
 .container-topbar .topbar {
     width: 1170px;
@@ -34,20 +34,34 @@ a{
 /* css phan duoi header */
 .header-toolbar{
     width: auto;
-    height: auto;
-}
-.foody-wapper{
-    
-    padding: 8px 15px 8px 15px;
     background-color: gray;
     text-align: center;
-    position: static;
+
+}
+.header-toolbar.foody-wapper{
+    display: flex;
+   padding: 8px 15px 8px 15px;
+    
+    text-align: center;
+    padding-left: 0;
+    display: inline-block;
   
 }
 
-.foody-wapper.rn-nav-name{
+.foody-wapper.{
+    background-color: #333;
+    flex-direction: row;
+    /* border-radius: 1px solid#eee; */
     line-height: 31px;
-    display: inline-block;
+    flex-wrap: nowrap;
+   
+    padding-left: 5px;
+    align-items: space-around;
+
+    
+}
+.foody-wapper img{
+
 }
   
 /* .foody-wapper.logo-foody-logo img{
